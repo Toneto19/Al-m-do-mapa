@@ -1,6 +1,7 @@
-*{
+* {
     font-family: "fonte_padrao";
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -39,25 +40,41 @@ ul {
     font-weight: bold;
 }
 
-#titulo_lugares{
+#titulo_lugares {
     text-align: center;
 }
 
-#div_lugares{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-}
-#div_lugares div {
-padding: 10px;
+#div_lugares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#div_lugares img{
+#div_lugares div {
+    padding: 10px;
+}
+
+#div_lugares img {
     transition: transform 0.5s ease;
     border-radius: 10px;
 }
 
-#div_lugares img:hover{
+#div_lugares img:hover {
     transform: scale(1.1);
     cursor: pointer;
+}
+
+.cor-laranja {
+    color: orangered;
+}
+
+.cor-laranja{
+    color: orange;
+}
+.centralizar{
+    text-align: center;
+}
+
+#paragrafo {
+    text-align: center;
 }
