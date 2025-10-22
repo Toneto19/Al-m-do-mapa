@@ -103,9 +103,15 @@ section:nth-of-type(n+3){
 
 .texto-detalhado{
     width: 50%;
+    text-align: center;
+    background-color: red;
 }
 .img-detalhado img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#lugares-detalhados{
+    display: flex;
 }
