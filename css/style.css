@@ -99,19 +99,31 @@ section:nth-of-type(n+3){
 
 .img-detalhado {
     width: 50%;
+    
 }
 
 .texto-detalhado{
     width: 50%;
     text-align: center;
-    background-color: red;
+    line-height: 1.3rem;
 }
 .img-detalhado img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px     ;
 }
 
 #lugares-detalhados{
     display: flex;
 }
+
+.margin-esquerda{
+    margin-left: 2vw;
+}
+
+.margin-direita{
+    margin-right: 2vw;
+}
+
+
