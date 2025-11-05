@@ -172,3 +172,21 @@ section:nth-of-type(n+3){
     width: 100%;
     height: 60vh;
 }
+
+body h1{
+    text-align: center;
+}
+
+#contato {
+ max-width: 1200px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    background: red;
+}
+
+
+
+
